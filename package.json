@@ -38,12 +38,14 @@
   },
   "dependencies": {
     "@ackee/styleguide-backend-config": "^0.1.2",
+    "@types/sqlite3": "^3.1.8",
     "configuru": "^0.4.0",
     "cosmas": "^3.0.7",
     "lodash": "^4.17.21",
     "node-healthz": "^1.0.1",
     "npm-run-series": "^1.0.1",
     "source-map-support": "^0.5.19",
+    "sqlite3": "^5.1.6",
     "unicore": "^0.4.0"
   },
   "devDependencies": {

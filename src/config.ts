@@ -13,7 +13,7 @@ const configSchema = {
   auth: {
     directBearerAuth: loader.bool('AUTH_DIRECT_BEARER_ENABLED'),
   },
-  enableTests: loader.bool('ENABLE_TESTS'),
+  enableTests: true,
   node: {
     env: loader.string('NODE_ENV'),
   },
@@ -23,6 +23,9 @@ const configSchema = {
     corsHeaders: loader.string('SERVER_CORS_ALLOW_HEADERS'),
     corsOrigins: loader.string('SERVER_CORS_ALLOW_ORIGINS'),
   },
+  problemService: {
+    riddleAnswer: "It is 42"
+  }
 }
 
 export default values(configSchema)
